@@ -5,9 +5,9 @@ import requests
 start_year = input('Start Year YYYY:  ')
 start_month = input('Start Month MM:  ')
 start_day = input('Start Day DD:  ')
-end_year = input('Start Year YYYY:  ')
-end_month = input('Start Month MM:  ')
-end_day = input('Start Day DD:  ')
+end_year = input('End Year YYYY:  ')
+end_month = input('End Month MM:  ')
+end_day = input('End Day DD:  ')
 
 # inserts user input into url
 url = 'https://api.coindesk.com/v1/bpi/historical/close.json?start={0}-{1}-{2}&end={3}-{4}-{5}'.format(
